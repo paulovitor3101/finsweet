@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    #special {
+        height: 80vh;
+        .container {
+            background: url(../../../../assets/img/home/special-post.png) no-repeat;
+
+            .special-content {
+                width: 60%;
+                background-color: var(--white);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}
+

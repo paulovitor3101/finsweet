@@ -1,0 +1,17 @@
+#category {
+    .card {
+        &:hover {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+
+        }
+
+        .img-icon {
+            width: max-content;
+            background: var(--light-yellow);
+        }
+
+        &.category-active {
+            background-color: var(--yellow);
+        }
+    }
+}

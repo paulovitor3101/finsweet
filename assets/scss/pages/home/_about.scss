@@ -1,0 +1,21 @@
+#about {
+    .container {
+        background: var(--lavender);
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 1000px;
+            height: 22px;
+            top: -21px;
+            right: 0;
+            box-shadow: inset 700px 0 var(--yellow),
+                inset -400px 0 var(--purple);
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}

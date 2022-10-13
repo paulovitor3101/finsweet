@@ -1,0 +1,37 @@
+#featured {
+    .featured-card {
+        &:hover {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .20);
+        }
+    }
+
+    .posts {
+
+        .all-posts {
+            small {
+                cursor: pointer;
+            }
+        }
+
+        .card-body {
+            &:hover {
+                background: var(--light-yellow);
+                cursor: pointer;
+            }
+        }
+
+        .active {
+            background-color: var(--light-yellow);
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    #featured {
+        .col-lg-5 {
+            width: 48%;
+        }
+    }
+}

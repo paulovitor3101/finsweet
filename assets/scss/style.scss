@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import "reset";
+// Components
+@import "pages/components/navgation";
+@import "pages/components/footer";
+// Utilidades
+@import "utilidades/custon";
+
+
+// Pages
+/*Home*/
+@import "pages/home/header";
+@import "pages/home/featured";
+@import "pages/home/about";
+@import "pages/home/category";
+@import "pages/home/special-post";
+@import "pages/home/authors";
+@import "pages/home/testimonial";
+/*Blog*/
+@import "pages/blog/blog";
+/* About Us */
+@import "pages/about/overvil";

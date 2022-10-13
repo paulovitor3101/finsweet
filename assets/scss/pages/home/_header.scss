@@ -1,0 +1,53 @@
+#header {
+    background: url(../../../../assets/img/home/header-bg-mobile.png) no-repeat left / cover;
+    height: 75vh;
+    box-shadow: inset 120px 100px 1000px rgba(0, 0, 0, 0.6), inset -120px -100px 1000px rgba(0, 0, 0, 0.6);
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .p-text {
+        line-height: 28px;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 576px) {
+    #header {
+        height: 100vh;
+
+        .title {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #header {
+        padding-top: 10%;
+        background: url(../../../../assets/img/home/header-bg-table.png) no-repeat left / cover;
+
+        .title {
+            font-size: 3.5rem;
+        }
+
+        .header-text {
+            width: 80%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #header {
+        background: url(../../../../assets/img/home/header-bg-desktop.png) no-repeat left / cover;
+
+        .header-text {
+            width: 60%;
+        }
+    }
+}

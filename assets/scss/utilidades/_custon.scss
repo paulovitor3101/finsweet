@@ -1,0 +1,70 @@
+.spacing-1 {
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.spacing-2 {
+    letter-spacing: -2px;
+    line-height: 48px;
+}
+
+.text-purple {
+    color: var(--purple);
+
+    &:hover {
+        color: var(--purple) !important;
+    }
+}
+
+// Button
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 56px;
+    background: var(--yellow);
+    color: #232536;
+    font-family: 'Sen', sans-serif;
+
+    &:hover {
+        background: #EDC14A;
+        color: #232536;
+    }
+}
+
+:root {
+    --font-sen: 'Sen', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --black: #232536;
+    --white: #fff;
+    --yellow: #FFD050;
+    --purple: #592EA9;
+    --dark-grey: #4C4C4C;
+    --medium-grey: #6D6E76;
+    --light-grey: #F4F4F4;
+    --lavender: #F4F0F8;
+    --light-yellow: #FBF6EA;
+}
+
+.bg-lavender {
+    background-color: var(--lavender);
+}
+
+
+.anime {
+    opacity: 0;
+    transition: all 0.4s ease;
+    transform: translate3d(0, -50px, 0px);
+}
+
+.anime.init-anime {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.box-shsdow {
+    z-index: 1;
+    box-shadow: 0px 50px 0px var(--white);
+}

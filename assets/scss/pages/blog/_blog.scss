@@ -1,0 +1,21 @@
+@media (min-width: 576px) {
+    #blog-posts {
+        .post {
+            .img {
+                width: 900px;
+            }
+        }
+    }
+
+    #blog-posts_content {
+        .content-text {
+            max-width: 75%;
+        }
+    }
+
+    #next-blog {
+        .card {
+            width: 100%;
+        }
+    }
+}
